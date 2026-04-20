@@ -143,7 +143,7 @@ const courseData = [
       },
       {
         title: "ลำดับและอนุกรม",
-        playlists: [{ name: "ลำดับและอนุกรม 2/2", videos: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpmWMmQJrGSmlbrW9sF7w42" }]
+        playlists: [ { name: "ลำดับและอนุกรม 1/2", videos: 14, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlq_NmDWxEugzGY3sbl6OVpl" }, { name: "ลำดับและอนุกรม 2/2", videos: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpmWMmQJrGSmlbrW9sF7w42" } ]
       },
       {
         title: "กำหนดการเชิงเส้น",
