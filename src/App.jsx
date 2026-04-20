@@ -21,22 +21,22 @@ const courseData = [
     topics: [
       {
         title: "เซต",
-        playlists: [{ name: "เซต", videos: 16, views: 120, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloemjTI1rha3ASo_nf4A52v" }]
+        playlists: [{ name: "เซต", videos: 16, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloemjTI1rha3ASo_nf4A52v" }]
       },
       {
         title: "ตรรกศาสตร์",
         playlists: [
-          { name: "ตรรกศาสตร์ 1/2", videos: 7, views: 44, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqICfgRs4EoJR75iMBuE2Wy" },
-          { name: "ตรรกศาสตร์ 2/2", videos: 13, views: 49, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqwNVf2MfmQhZwMiT2q5FmD" }
+          { name: "ตรรกศาสตร์ 1/2", videos: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqICfgRs4EoJR75iMBuE2Wy" },
+          { name: "ตรรกศาสตร์ 2/2", videos: 13, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqwNVf2MfmQhZwMiT2q5FmD" }
         ]
       },
       {
         title: "ระบบจำนวนจริง",
-        playlists: [{ name: "จำนวนจริง", videos: 15, views: 82, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloA-GNatKskCJ2QsGy8OyCS" }]
+        playlists: [{ name: "จำนวนจริง", videos: 15, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloA-GNatKskCJ2QsGy8OyCS" }]
       },
       {
         title: "ทฤษฎีจำนวนเบื้องต้น",
-        playlists: [{ name: "ทฤษฎีจำนวนเบื้องต้น", videos: 13, views: 23, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqUTpp_wZxBOIE0-Wswzk0d" }]
+        playlists: [{ name: "ทฤษฎีจำนวนเบื้องต้น", videos: 13, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqUTpp_wZxBOIE0-Wswzk0d" }]
       }
     ]
   },
@@ -47,27 +47,27 @@ const courseData = [
       {
         title: "ฟังก์ชัน",
         playlists: [
-          { name: "ฟังก์ชั่น 1/2", videos: 14, views: 121, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlokUwQpDZivy-lygkRdNHY0" },
-          { name: "ฟังก์ชั่น 2/2", videos: 10, views: 38, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrwnntcc9tQaUJbF8Sw0EgB" }
+          { name: "ฟังก์ชั่น 1/2", videos: 14, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlokUwQpDZivy-lygkRdNHY0" },
+          { name: "ฟังก์ชั่น 2/2", videos: 10, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrwnntcc9tQaUJbF8Sw0EgB" }
         ]
       },
       {
         title: "ภาคตัดกรวย",
         playlists: [
-          { name: "ภาคตัดกรวย 1/2", videos: 23, views: 221, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlp1nGJlIdyFfY6zWLm8Y0xX" },
-          { name: "ภาคตัดกรวย 2/2", videos: 6, views: 19, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpWT8gmGfyzCPaFwKxby971" }
+          { name: "ภาคตัดกรวย 1/2", videos: 23, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlp1nGJlIdyFfY6zWLm8Y0xX" },
+          { name: "ภาคตัดกรวย 2/2", videos: 6, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpWT8gmGfyzCPaFwKxby971" }
         ]
       },
       {
         title: "เอ็กซ์โพเนนเชียล",
         playlists: [
-          { name: "เอ็กซ์โพเนนเชียล 1/7", videos: 7, views: 50, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlryTqF9niRy022Dnrt1JiRk" },
-          { name: "เอ็กซ์โพเนนเชียล 2/7", videos: 7, views: 42, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlp_BXLED3RRcEnyvtmcMjXC" },
-          { name: "เอ็กซ์โพเนนเชียล 3/7", videos: 7, views: 44, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrTY2MzJ_3RgGx_1pr8weim" },
-          { name: "เอ็กซ์โพเนนเชียล 4/7", videos: 6, views: 15, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlosKeENl4jgnjTjp1JANXdG" },
-          { name: "เอ็กซ์โพเนนเชียล 5/7", videos: 10, views: 6, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqZ8QveyiiZO4F_VKj6ToTs" },
-          { name: "เอ็กซ์โพเนนเชียล 6/7", videos: 18, views: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpgocAxeTlSDjtKDGZIB8nO" },
-          { name: "เอ็กซ์โพเนนเชียล 7/7", videos: 9, views: 11, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloaGlgSRWsD7jYFh8R_U2zE" }
+          { name: "เอ็กซ์โพเนนเชียล 1/7", videos: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlryTqF9niRy022Dnrt1JiRk" },
+          { name: "เอ็กซ์โพเนนเชียล 2/7", videos: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlp_BXLED3RRcEnyvtmcMjXC" },
+          { name: "เอ็กซ์โพเนนเชียล 3/7", videos: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrTY2MzJ_3RgGx_1pr8weim" },
+          { name: "เอ็กซ์โพเนนเชียล 4/7", videos: 6, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlosKeENl4jgnjTjp1JANXdG" },
+          { name: "เอ็กซ์โพเนนเชียล 5/7", videos: 10, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqZ8QveyiiZO4F_VKj6ToTs" },
+          { name: "เอ็กซ์โพเนนเชียล 6/7", videos: 18, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpgocAxeTlSDjtKDGZIB8nO" },
+          { name: "เอ็กซ์โพเนนเชียล 7/7", videos: 9, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloaGlgSRWsD7jYFh8R_U2zE" }
         ]
       }
     ]
@@ -79,34 +79,34 @@ const courseData = [
       {
         title: "ตรีโกณมิติ",
         playlists: [
-          { name: "ตรีโกณ 1/3", videos: 11, views: 74, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloa1zZPg6hW0fWTp-MZ-EtI" },
-          { name: "ตรีโกณ 2/3", videos: 10, views: 48, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlorw75aWQzitHd3Q-yHDzOt" },
-          { name: "ตรีโกณ 3/3", videos: 10, views: 28, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrMsxrFdc51k2QZOOCYa9wK" }
+          { name: "ตรีโกณ 1/3", videos: 11, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloa1zZPg6hW0fWTp-MZ-EtI" },
+          { name: "ตรีโกณ 2/3", videos: 10, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlorw75aWQzitHd3Q-yHDzOt" },
+          { name: "ตรีโกณ 3/3", videos: 10, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrMsxrFdc51k2QZOOCYa9wK" }
         ]
       },
       {
         title: "เมทริกซ์",
         playlists: [
-          { name: "เมทริกซ์ 1/3", videos: 8, views: 59, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlq-1AFe2uk6dITODQl3zPIV" },
-          { name: "เมทริกซ์ 2/3", videos: 13, views: 70, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpkNwLf7HNFwEFmpWvQCUsv" },
-          { name: "เมทริกซ์ 3/3", videos: 17, views: 117, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlore_lRmTBuo89-zmk4wWmD" }
+          { name: "เมทริกซ์ 1/3", videos: 8, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlq-1AFe2uk6dITODQl3zPIV" },
+          { name: "เมทริกซ์ 2/3", videos: 13, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpkNwLf7HNFwEFmpWvQCUsv" },
+          { name: "เมทริกซ์ 3/3", videos: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlore_lRmTBuo89-zmk4wWmD" }
         ]
       },
       {
         title: "เวกเตอร์",
         playlists: [
-          { name: "เวกเตอร์ 1/5", videos: 7, views: 42, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrgerbWfS2B1xOzLbSUucCD" },
-          { name: "เวกเตอร์ 2/5", videos: 7, views: 37, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrNiVODbDZO47LfFAvbjds3" },
-          { name: "เวกเตอร์ 3/5", videos: 8, views: 27, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpo7Y8yRKHiNj4cCsOjb3wB" },
-          { name: "เวกเตอร์ 4/5", videos: 12, views: 25, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqnE8RjR9Sm0ycsNIFUa5RE" },
-          { name: "เวกเตอร์ 5/5", videos: 14, views: 30, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrnzjGwpU_W0la5hUAx6osR" }
+          { name: "เวกเตอร์ 1/5", videos: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrgerbWfS2B1xOzLbSUucCD" },
+          { name: "เวกเตอร์ 2/5", videos: 7, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrNiVODbDZO47LfFAvbjds3" },
+          { name: "เวกเตอร์ 3/5", videos: 8, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpo7Y8yRKHiNj4cCsOjb3wB" },
+          { name: "เวกเตอร์ 4/5", videos: 12, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqnE8RjR9Sm0ycsNIFUa5RE" },
+          { name: "เวกเตอร์ 5/5", videos: 14, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrnzjGwpU_W0la5hUAx6osR" }
         ]
       },
       {
         title: "จำนวนเชิงซ้อน",
         playlists: [
-          { name: "จำนวนเชิงซ้อน 1/2", videos: 21, views: 70, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlocG-GdkxkFjMl6f9tFZygD" },
-          { name: "จำนวนเชิงซ้อน 2/2", videos: 27, views: 31, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloDNiJVVQ0bApvJ515hPEkB" }
+          { name: "จำนวนเชิงซ้อน 1/2", videos: 21, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlocG-GdkxkFjMl6f9tFZygD" },
+          { name: "จำนวนเชิงซ้อน 2/2", videos: 27, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloDNiJVVQ0bApvJ515hPEkB" }
         ]
       }
     ]
@@ -118,36 +118,36 @@ const courseData = [
       {
         title: "ความน่าจะเป็น",
         playlists: [
-          { name: "ความน่าจะเป็น 1/3", videos: 17, views: 93, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpfV1ZT8b82TCLlMD9RLTdx" },
-          { name: "ความน่าจะเป็น 2/3", videos: 16, views: 30, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlplJogaCCJLzTYo0TE9xliR" }
+          { name: "ความน่าจะเป็น 1/3", videos: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpfV1ZT8b82TCLlMD9RLTdx" },
+          { name: "ความน่าจะเป็น 2/3", videos: 16, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlplJogaCCJLzTYo0TE9xliR" }
         ]
       },
       {
         title: "สถิติ",
         playlists: [
-          { name: "สถิติ 1/6", videos: 14, views: 75, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrHMzc9DFvccODQRjW8Z6nA" },
-          { name: "สถิติ 2/6", videos: 18, views: 32, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrO2LI1LklvnFcT7Ujn-hjn" },
-          { name: "สถิติ 3/6", videos: 8, views: 12, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloKdER9_d8yE9jzIPCPba88" },
-          { name: "สถิติ 4/6", videos: 6, views: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrag4GLLB76axm3PeN0D1qu" },
-          { name: "สถิติ 5/6", videos: 5, views: 6, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlp7li7O5bpKPuFsLZC7nT9P" },
-          { name: "สถิติ 6/6", videos: 25, views: 10, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlov1f6JS9mLFmDDijMC7dGt" }
+          { name: "สถิติ 1/6", videos: 14, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrHMzc9DFvccODQRjW8Z6nA" },
+          { name: "สถิติ 2/6", videos: 18, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrO2LI1LklvnFcT7Ujn-hjn" },
+          { name: "สถิติ 3/6", videos: 8, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloKdER9_d8yE9jzIPCPba88" },
+          { name: "สถิติ 4/6", videos: 6, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlrag4GLLB76axm3PeN0D1qu" },
+          { name: "สถิติ 5/6", videos: 5, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlp7li7O5bpKPuFsLZC7nT9P" },
+          { name: "สถิติ 6/6", videos: 25, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlov1f6JS9mLFmDDijMC7dGt" }
         ]
       },
       {
         title: "แคลคูลัส",
         playlists: [
-          { name: "แคลคูลัส 1/3", videos: 28, views: 205, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpl-fKDmZRBQuZsMQN2cbsv" },
-          { name: "แคลคูลัส 2/3", videos: 26, views: 154, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloNJc9rbgaSgz9T_NEbvxJ0" },
-          { name: "แคลคูลัส 3/3", videos: 6, views: 41, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpGBNh-mLqTduHoBXLqblpF" }
+          { name: "แคลคูลัส 1/3", videos: 28, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpl-fKDmZRBQuZsMQN2cbsv" },
+          { name: "แคลคูลัส 2/3", videos: 26, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGloNJc9rbgaSgz9T_NEbvxJ0" },
+          { name: "แคลคูลัส 3/3", videos: 6, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpGBNh-mLqTduHoBXLqblpF" }
         ]
       },
       {
         title: "ลำดับและอนุกรม",
-        playlists: [{ name: "ลำดับและอนุกรม 2/2", videos: 17, views: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpmWMmQJrGSmlbrW9sF7w42" }]
+        playlists: [{ name: "ลำดับและอนุกรม 2/2", videos: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpmWMmQJrGSmlbrW9sF7w42" }]
       },
       {
         title: "กำหนดการเชิงเส้น",
-        playlists: [{ name: "กำหนดการเชิงเส้น 1/1", videos: 11, views: 0, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlodU8z5qjxKo4dfdhz7tQ9J" }]
+        playlists: [{ name: "กำหนดการเชิงเส้น 1/1", videos: 11, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlodU8z5qjxKo4dfdhz7tQ9J" }]
       }
     ]
   },
@@ -157,7 +157,7 @@ const courseData = [
     topics: [
       {
         title: "ติวเข้ามหาลัย",
-        playlists: [{ name: "ติวเข้ามหาลัย 1/1", videos: 20, views: 13, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqrEBfmh8SEibwU4w9emuRw" }]
+        playlists: [{ name: "ติวเข้ามหาลัย 1/1", videos: 20, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlqrEBfmh8SEibwU4w9emuRw" }]
       }
     ]
   }
@@ -339,9 +339,6 @@ export default function App() {
                             <div className="flex gap-2 text-xs text-slate-500">
                               <span title="จำนวนวิดีโอ" className="flex items-center gap-1 bg-slate-100 px-2 py-1 rounded">
                                 <BookOpen className="w-3 h-3" /> {playlist.videos}
-                              </span>
-                              <span title="ยอดวิว" className="flex items-center gap-1 bg-slate-100 px-2 py-1 rounded">
-                                <Activity className="w-3 h-3" /> {playlist.views}
                               </span>
                             </div>
                           </a>
