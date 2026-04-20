@@ -293,7 +293,7 @@ export default function App() {
                 <div className="text-xs text-indigo-100 mt-1">หัวข้อหลัก</div>
               </div>
               <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 text-center min-w-[100px]">
-                <div className="text-3xl font-bold">44</div>
+                <div className="text-3xl font-bold">45</div>
                 <div className="text-xs text-indigo-100 mt-1">เพลย์ลิสต์</div>
               </div>
             </div>
