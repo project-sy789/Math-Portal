@@ -119,7 +119,8 @@ const courseData = [
         title: "ความน่าจะเป็น",
         playlists: [
           { name: "ความน่าจะเป็น 1/3", videos: 17, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpfV1ZT8b82TCLlMD9RLTdx" },
-          { name: "ความน่าจะเป็น 2/3", videos: 16, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlplJogaCCJLzTYo0TE9xliR" }
+          { name: "ความน่าจะเป็น 2/3", videos: 16, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlplJogaCCJLzTYo0TE9xliR" },
+          { name: "ความน่าจะเป็น 3/3", videos: 10, url: "https://www.youtube.com/playlist?list=PLm6OSkE-YGlpJa1kaywv-tYNpD9KNdSPH" }
         ]
       },
       {
